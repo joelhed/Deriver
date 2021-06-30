@@ -1287,8 +1287,8 @@ def textify(this_drv: list) -> str:
                           f"({','.join([str(b).zfill(zf_val) for b in a[4]])})" for a in this_drv])
 
 
-drv_attempt = try_derivation(from_props=["∀x(Fxxx→∃x∃y∃zFxyz)"], provisional=True)
-print(textify(drv_attempt))
+#drv_attempt = try_derivation(from_props=["∀x(Fxxx→∃x∃y∃zFxyz)"], provisional=True)
+#print(textify(drv_attempt))
 #Failed: ["¬∃xFx↔∀yGy", "∀y¬Fy", "∃yGy"]
 #Failed: ["∃x∃yFxy→∃y∃xFyx"]
 #Failed: ["∃xFxxx", "∃x∃y∃zFxyz"]
